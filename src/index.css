@@ -5,9 +5,73 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: lavenderblush;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+}
+h1 {
+  font-size: 1em;
+}
+ul {
+  width: 100vw;
+  margin-top: 0;
+  padding: 2vh 0;
+  /* padding: ; */
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  background: black;
+}
+
+a {
+  font-size: 3vw;
+  text-decoration: none;
+  color: linen;
+}
+
+a:hover {
+  color: blueviolet;
+}
+
+form {
+  margin: 4vh;
+  padding: 35px 15px;
+  /* width: 50vw; */
+  display: grid;
+  justify-items: center;
+  row-gap: 3vh;
+  border: solid 5px lightslategrey;
+  background: black;
+}
+
+input {
+  border-radius: 5px;
+  width: 85%;
+  padding: 2%;
+  /* background: ; */
+}
+
+button {
+  /* margin-top: 10%; */
+  border-radius: 5px;
+  background: oldlace;
+  border: 2px solid azure;
+}
+
+.error {
+  color: whitesmoke;
+}
+
+.sign-link > a {
+  font-size: 1em;
+  color: slategray;
 }
